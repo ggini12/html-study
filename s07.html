@@ -1,0 +1,23 @@
+<!-- 컬럼(Column) : 한줄에서도 여러개로 각기다른 내용들, 가로로쌓는것 ex)  [  ][  ][  ][  ] -->
+<!-- 로우(Row) : 한줄로 배치되는것, 세로로쌓는것 ex) [                         ] -->
+<!-- 테이블 -->
+<!-- bordor = 칸 -->
+<table border>
+  <!-- tr=(Row를 나타내는것) -->
+  <tr style="background-color: gray">
+    <!-- th,td=(Column을 나타내는것) -->
+    <th>순번</th>
+    <th>제목</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>안녕하세요.</td>
+  </tr>
+  <tr>
+    <td rowspan="2">2</td>
+    <td>질문있어요.</td>
+  </tr>
+  <tr>
+    <td colspan="2">반갑습니다.</td>
+  </tr>
+</table>
